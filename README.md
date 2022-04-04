@@ -6,7 +6,9 @@ This project uses HTML, CSS and JavaScript to create a multiple-choice quiz usin
 
 ## Installation
 
-This project requires no installation. The files can be copied to a directory and run from their if the original folder levels are preserved.
+There is no installation needed, I have the page hosted here at Github.
+
+Link: [https://cliff-rosenberg.github.io/My-Web-Portfolio-Page/)](https://cliff-rosenberg.github.io/My-Web-Portfolio-Page/)
 
 ## Usage
 
