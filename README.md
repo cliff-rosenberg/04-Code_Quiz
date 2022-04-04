@@ -8,7 +8,7 @@ This project uses HTML, CSS and JavaScript to create a multiple-choice quiz usin
 
 There is no installation needed, I have the page hosted here at Github.
 
-Link: [https://cliff-rosenberg.github.io/My-Web-Portfolio-Page/)](https://cliff-rosenberg.github.io/My-Web-Portfolio-Page/)
+Link: [https://cliff-rosenberg.github.io/04-Code_Quiz/](https://cliff-rosenberg.github.io/04-Code_Quiz/)
 
 ## Usage
 
