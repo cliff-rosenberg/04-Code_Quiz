@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="./css/style.css">
+    
+    <title>Code Quiz</title>
+</head>
+<body>
+    <header><h1>Coding Terms Quiz</h1>
+        <p class="header-paragraph">This program asks questions about coding-related subjects. Click on top of the answer you think is correct to receive instant feedback on the choice! Try to answer all the questions as fast as possible because the time left at the end will be your score!</p>
+        <button type="button" style="background: darkcyan;color:white;" id="quiz-btn">START QUIZ</button>
+    </header>
+    
+    <div class="timer-container">
+            <p><span id="time"></span></p>
+    </div>
+    <div id="container-quiz"></div>
+    <div id="save-high-score" style="visibility: hidden;">
+        <p>Enter your name for scoreboard: </p>
+        <form id="localScoreboard">
+            <label>Player name:</label>
+            <input type="text" id="playername" name="playername"><br><br>
+            <button type="submit">Submit</button>
+        </form>
+        <ol id="storedList"></ol>
+        <button type="button" style="background: darkcyan;color:white;" id="restart-btn">Restart Game</button>
+    </div>
+
+
+    <script src="./js/script.js"></script>
+</body>
+</html>

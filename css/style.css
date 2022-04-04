@@ -1,0 +1,72 @@
+/*CSS for Code Quiz */
+
+body {
+    background-color: lightgray;
+}
+
+header {
+    background-color: blanchedalmond;
+    margin: auto;
+    width: fit-content;
+    padding: 10px;
+    text-align: center;
+}
+
+header h1 {
+    text-decoration: underline;
+}
+
+.header-paragraph {
+    text-align: center;
+    width: 40vw;
+    border: 3px solid green;
+    padding: 5px;
+    margin: 5px;
+}
+
+#quiz-btn {
+    padding: 10px;
+    margin-top: 20px;
+}
+
+#container-quiz {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;     
+}
+
+.timer-container {
+    text-align: center;
+    align-items: center;
+}
+
+.timer-container p {
+    font-size: larger;
+    align-items: center;
+    text-align: center;
+}
+
+.answer-choices {
+    font-family: 'Courier New', Courier, monospace;
+    align-items: center;
+    text-align: center;
+}
+
+.answer-choices div:hover {
+ font-style: italic;
+ font-weight: 900;
+ color: crimson;
+}
+
+#save-high-score {
+    display: flex;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    flex-direction: column;
+    margin: auto;
+    width: 30vw;
+    align-items: center; 
+    border: 2px solid black;
+    padding: 20px;
+    text-align: center;
+}
